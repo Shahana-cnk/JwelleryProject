@@ -11,7 +11,6 @@
     <form id="form2" runat="server">
         <p>
            <table class="w-100">
-               
                 <tr>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
@@ -20,7 +19,6 @@
                     </td>
                     <td>&nbsp;</td>
                 </tr>
-              
                 <tr>
                     <td>&nbsp;</td>
                     <td>
@@ -34,7 +32,6 @@
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="DropDownList1" ErrorMessage="RequiredFieldValidator"></asp:RequiredFieldValidator>
                     </td>
                 </tr>
-             
                 <tr>
                     <td>&nbsp;</td>
                     <td>

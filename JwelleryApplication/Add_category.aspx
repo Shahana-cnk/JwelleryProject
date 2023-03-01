@@ -7,7 +7,6 @@
         <p>
             <h3>ADD CATEGORY</h3>
            <table class="w-100">
-               
                 <tr>
                     <td>&nbsp;</td>
                     <td>
@@ -18,7 +17,6 @@
                     </td>
                     <td>&nbsp;</td>
                 </tr>
-               
                 <tr>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
