@@ -34,6 +34,27 @@ namespace JwelleryApplication
 
         }
 
-       
+        //protected void Button2_Click(object sender, EventArgs e)
+        //{
+
+        //    DataList1.SelectedIndex = e.Item.ItemIndex;
+        //    label4.Text = "You selected: " + ((Label)DataList1.SelectedItem.FindControl("Label1")).Text;
+        //    myTempLabel.Visible = true;
+        //    int price = DataList1.DataKeys[];
+        //    //string ins = "insert into Cart_table values()";
+
+        //}
+
+        //protected void DataList1_ItemCommand(object source, DataListCommandEventArgs e)
+        //{
+        //    DataList1.SelectedIndex = e.Item.ItemIndex;
+        //    Label4.Text = "You selected: " + ((Label)DataList1.SelectedItem.FindControl("Label1")).Text;
+        //    myTempLabel.Visible = true;
+        //}
+
+        protected void DataList1_ItemCommand1(object source, DataListCommandEventArgs e)
+        {
+
+        }
     }
 }

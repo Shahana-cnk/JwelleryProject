@@ -13,7 +13,7 @@
        
         <div class="gap" align="center">
             
-<asp:DataList ID="DataList1" runat="server" style="align-content:center" Height="734px">
+<asp:DataList ID="DataList1" runat="server" style="align-content:center" Height="734px" OnItemCommand="DataList1_ItemCommand1">
                     <ItemTemplate>
                         <table class="auto-style1">
                         
@@ -39,19 +39,21 @@
                             </tr>
                             
                                <tr>
-                                <td><strong>
-                                  <b> <asp:Label ID="Label3" runat="server" Text='<%# Eval("Pdt_price") %>'></asp:Label></b> 
-                                    </strong>
-
-                                </td>
+                                <td>&nbsp;</td>
                                
                             </tr>
                            
                         </table>
                         <asp:TextBox ID="TextBox1" runat="server" Height="47px" Width="110px"></asp:TextBox>
-                        <asp:Button ID="Button2" runat="server" Height="74px" Text="Add To Kart" Width="194px" />
+                        <asp:Button ID="Button2" runat="server" Height="74px" Text="Add To Kart" Width="194px" OnClick="Button2_Click" />
                         <asp:Button ID="Button4" runat="server" Text="Continue" />
                         <asp:Button ID="Button3" runat="server" Text="Back to Home" />
+                        <br />
+                        <asp:Label ID="Label4" runat="server" Text="Label"></asp:Label>
+                        <asp:Label ID="Label5" runat="server" Text="Label"></asp:Label>
+                        <strong><b>
+                        <asp:Label ID="Label3" runat="server" Text='<%# Eval("Pdt_price") %>'></asp:Label>
+                        </b></strong>
                     </ItemTemplate>
                 </asp:DataList>
           

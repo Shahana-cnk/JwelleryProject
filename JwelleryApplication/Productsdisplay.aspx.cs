@@ -32,7 +32,8 @@ namespace JwelleryApplication
         {
             int id = Convert.ToInt32(e.CommandArgument);
             Session["pdt_id"] = id;
-            Response.Redirect("View_single_product.aspx");
+            //Response.Redirect("View_single_product.aspx");
+            Response.Redirect("View_Buy.aspx");
         }
     }
 }

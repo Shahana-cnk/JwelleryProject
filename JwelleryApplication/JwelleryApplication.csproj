@@ -121,6 +121,7 @@
     <Content Include="User_Reg.aspx" />
     <Content Include="User_view.aspx" />
     <Content Include="ViewCategory.aspx" />
+    <Content Include="View_Buy.aspx" />
     <Content Include="View_Products.aspx" />
     <Content Include="View_Shop.aspx" />
     <Content Include="View_single_product.aspx" />
@@ -220,6 +221,13 @@
     </Compile>
     <Compile Include="ViewCategory.aspx.designer.cs">
       <DependentUpon>ViewCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View_Buy.aspx.cs">
+      <DependentUpon>View_Buy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View_Buy.aspx.designer.cs">
+      <DependentUpon>View_Buy.aspx</DependentUpon>
     </Compile>
     <Compile Include="View_Products.aspx.cs">
       <DependentUpon>View_Products.aspx</DependentUpon>
